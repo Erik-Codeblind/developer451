@@ -1,7 +1,6 @@
 ---
 title: "About This Site: A Disclaimer"
 date: 2020-12-15T15:32:39-05:00
-draft: true
 menu: main
 summary: "I make no claims, promises,guarantees, or warranties regarding the accuracy, completeness, adequacy, usefulness, safety, or awesomeness of the contents herein."
 ---
