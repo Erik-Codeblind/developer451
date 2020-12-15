@@ -1,5 +1,5 @@
 ---
-title: "Onedrive: File Has Been Changed By Another Application"
+title: "OneDrive: File Has Been Changed By Another Application"
 date: 2020-12-15T09:19:44-05:00
 summary: "How to resolve OneDrive: \"The file has been changed by another application\" errors in macOS."
 tags: ["macOS", "OneDrive"]

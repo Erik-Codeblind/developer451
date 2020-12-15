@@ -1,0 +1,33 @@
+body {
+    max-width: 760px;
+}
+
+a {
+    color: #C4B5A3;
+}
+
+blockquote {
+    border-color: #C4B5A3;
+}
+
+mark {
+    background-color: #C4B5A3;
+}
+
+.logo:hover {
+    color: #C4B5A3;
+}
+
+.main-nav__btn {
+    fill: #C4B5A3;
+}
+
+.toc {
+    color: #C4B5A3;
+}
+
+.share__icon {
+    fill: #C4B5A3;
+    stroke: #C4B5A3;
+}
+
