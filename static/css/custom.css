@@ -1,9 +1,18 @@
 body {
-    max-width: 760px;
+    max-width: 960px;
+    font-size: 1.1rem;
+}
+
+h1 {
+    font-size: 1.65rem;
 }
 
 a {
     color: #C4B5A3;
+}
+
+p {
+    line-height: 1.8rem;
 }
 
 blockquote {

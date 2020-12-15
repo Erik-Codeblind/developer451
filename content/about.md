@@ -7,7 +7,7 @@ summary: "I make no claims, promises,guarantees, or warranties regarding the acc
 
 This website serves as a notebook about web development, computer programming, software engineering, and other such matters recorded for my personal use.
 
-**I make no claims, promises, guarantees, or warranties regarding the accuracy, completeness, adequacy, usefulness, legality, safety, or awesomeness of the contents herein.**
+**I make no claims, promises, guarantees, or warranties as to the accuracy, completeness, adequacy, usefulness, legality, safety, or awesomeness of the contents herein.**
 
 Should you find anything on this site factually incorrect, able to be significantly improved upon, or lacking proper attribution, please feel free to contact me with your concerns.
 
