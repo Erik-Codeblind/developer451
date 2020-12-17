@@ -20,4 +20,6 @@ Note the resulting shortcode name is derived from the file name, `replit.html =>
 
 3. Ta-dah!
 
+Behold the **{{&lt;replit src="">}}** shortcode in action.
+
 {{<replit src="https://repl.it/@Erik_Codeblind/ReducerPattern">}}
