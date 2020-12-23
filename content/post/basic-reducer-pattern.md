@@ -24,7 +24,9 @@ const reducer = (state, action = { type: null, payload: null }) => {
     case 'DIVIDE':
       return state / action.payload;
     default:
-      return state;
+      // It's common for a reducer to return the current state when action.type 
+      // is unrecognized, but doing so invites difficult to decipher defects. 
+      throw new Error(`Unhandled action type: ${action.type}`);
   }
 };
 
@@ -32,6 +34,11 @@ console.log(reducer(count, {type: 'INCREASE', payload: 3 })) // 15
 console.log(reducer(count, {type: 'DECREASE', payload: 2 })) // 10
 console.log(reducer(count, {type: 'DIVIDE', payload: 3 })) // 4
 console.log(reducer(count, {type: 'MULTIPLY', payload: 12 })) // 144
+try {
+    console.log(reducer(count, {type: 'UNKNOWN', payload: 100 })); // Throws an error we will catch!
+} catch(e) {
+    console.log(`We caught the error!`); // We catch it every time!
+}
 console.log(count); // 12 (count remains unchanged)
 {{</ highlight>}}
 
