@@ -2,6 +2,7 @@
 title: "Hugo Shortcode to Embed Repl.it Posts with Inline Frames"
 date: 2020-12-16T18:51:45-05:00
 summary: "Example of creating a custom Hugo shortcode to embed pages using iframes with custom attributes."
+tags: ["Hugo", "Shortcode"]
 ---
 
 If you want to use `<iframe>` tags with custom attributes to embed pages into Hugo posts, one easy approach is to create a custom shortcode template. This example will demonstrate creating a custom shortcode to embed [repl.it](https://repl.it/) pages.

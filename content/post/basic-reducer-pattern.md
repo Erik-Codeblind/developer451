@@ -2,6 +2,7 @@
 title: "Basic Reducer Pattern"
 date: 2020-12-16T16:59:32-05:00
 summary: "A basic, framework agnostic, description of the concept behind the reducer pattern."
+tags: ["React", "JavaScript", "Redux", "Reducer"]
 ---
 
 The basic concept of a reducer is to provide a pure function defining the `types` of operations you're planning to perform on the values of the current `state`. 
