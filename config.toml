@@ -48,7 +48,6 @@ homeText = "Home" # Home node text
 
 [Params.Social]
 twitter = "developer451"
-linkedin = "codeblind"
 #github = "username"
 
 [Params.Share] # Entry Share block
