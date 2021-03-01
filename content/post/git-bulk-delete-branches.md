@@ -14,7 +14,8 @@ In this example we want to delete all branches from our local git repo that begi
 git branch --list "fix/*"
 ```
 
-You will see list of branches matching the glob pattern, similar to this,
+You will see a list of branches matching the glob pattern, provided there are any.
+
 ```shell
   fix/debug-console-error
   fix/dropcase-first-letter
@@ -22,7 +23,7 @@ You will see list of branches matching the glob pattern, similar to this,
   fix/off-by-one
   ```
 
-2. If this list of files looks right, you can delete them all by piping the list to `xargs`.
+2. If this list of files looks correct, you can delete them all by piping it to `xargs`.
 
 ```shell
 git branch --list "fix/*" | xargs git branch -d
@@ -35,13 +36,13 @@ error: The branch 'fix/off-by-one' is not fully merged.
 If you are sure you want to delete it, run 'git branch -D fix/off-by-one'.
 ```
 
-These errors are a warning to let you know that your "main" branch (or the currently checked out branch) does not have all commits from the `fix/off-by-one` branch you are trying to delete. If you delete the branch, you will lose those changes and any history associated with them. If that is fine, you can run `xargs` again, this time passing the `-D` flag to `git`.
+This lets you know that your "main" branch (or the currently checked out branch) does not have all commits from the `fix/off-by-one` branch you are trying to delete. If you delete the branch, you will lose those changes and any history associated with them. If you feel losing that information is fine for your needs, you can run `xargs` again, this time passing the `-D` flag to `git`.
 
 ```shell
 git branch --list "fix/*" | xargs git branch -D
 ```
 
-3. Listing the branches beginning with `fix/` should no longer return any results.
+3. Once more listing the branches beginning with `fix/` should no longer return any results.
 
 ```shell
 git branch --list "fix/*"
