@@ -23,7 +23,7 @@ You will see a list of branches matching the glob pattern, provided there are an
   fix/off-by-one
   ```
 
-2. If this list of files looks correct, you can delete them all by piping it to `xargs`.
+2. If this list of branches looks correct, you can delete them all by piping it to `xargs git branch -d`.
 
 ```shell
 git branch --list "fix/*" | xargs git branch -d
