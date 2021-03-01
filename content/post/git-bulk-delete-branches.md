@@ -2,7 +2,7 @@
 title: "Git Bulk Delete Branches Example"
 date: 2021-03-01T11:38:01-05:00
 summary: "How to delete all git branches matching a given pattern."
-draft: true
+tags: ["Git"]
 ---
 
 In this example we want to delete all branches from our local git repo that begin with `fix/`.
